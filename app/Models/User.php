@@ -17,9 +17,9 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name',
-        'email',
-        'password',
+        'name','surname','id_number','local','cell_phone','whatsapp_number','birth_date','birth_place','photo','email','street','no','sector','municipality','circumscription','neighborhood','urbanization','electoral_college','college_location','unit_of_change','city','province','country','housing_type','housing_condition','monthly_fee','position','national','regional','provincial','municipal',
+        'distrital','change_unit','study_level','profession','institution_name','language','employment_status','working_company_name','position_held_by','tlf_company','belongs_company_name','city_and_address',
+        // 'password',
     ];
 
     /**
